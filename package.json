@@ -1,0 +1,26 @@
+{
+  "name": "check-git-branch-merge",
+  "version": "1.0.0",
+  "description": "Detect whether git specified branch is merged into the current branch, to avoid code being overwritten because the branch is not merged",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flftfqwxf/check-git-branch-merge.git"
+  },
+  "keywords": [
+    "git",
+    "branch-merge"
+  ],
+  "author": "skypp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flftfqwxf/check-git-branch-merge/issues"
+  },
+  "homepage": "https://github.com/flftfqwxf/check-git-branch-merge#readme",
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  }
+}
